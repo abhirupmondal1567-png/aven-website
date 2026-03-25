@@ -49,9 +49,9 @@ nav a:hover {
     align-items: center;
     text-align: center;
 
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,1)),
-    url('https://images.unsplash.com/photo-1497032205916-ac775f0649ae');
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url('p1.png');
     background-size: cover;
+    background-position: center; 
 }
 
 #home h2 {
@@ -93,7 +93,7 @@ section {
 }
 
 #work div:hover {
-    transform: scale(1.05);
+    transform: scale(.05);
 }
 
 /* CONTACT FORM */
